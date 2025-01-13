@@ -1,0 +1,11 @@
+.navbar-custom .avatar-container .avatar-img-border {
+  width: 100%;
+      border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.navbar-custom .avatar-container .avatar-img {
+  border-radius: 0;
+}
