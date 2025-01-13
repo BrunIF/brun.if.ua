@@ -1,0 +1,45 @@
+baseURL = 'https://brun.if.ua/'
+defaultContentLanguage = 'uk'
+languageCode = 'uk-UA'
+title = 'Ігор Броновський'
+pygmentsStyle = 'trac'
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+theme = 'brun'
+dateFormat = '2 January 2006, Monday'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Головна"
+    url = "/"
+    weight = -110
+  [[menu.main]]
+    identifier = "about"
+    name = "Про мене"
+    url = "/about"
+    weight = 200
+
+[params]
+  logo = 'img/logo.png'
+  favicon = 'favicon.ico'
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+
+  [params.author]
+    name = "Ігор Броновський"
+    homepage = "https://brun.if.ua"
+    skype = 'brun4u'
+
+[Services]
+  [Services.Disqus]
+    Shortname = "brun"
+  [Services.googleAnalytics]
+    id = "G-64QS2KSVD1"
+
