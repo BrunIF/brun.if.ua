@@ -22,7 +22,7 @@ dateFormat = '2 January 2006, Monday'
     weight = 200
 
 [params]
-  logo = 'img/logo.png'
+  logo = 'logo.png'
   favicon = 'favicon.ico'
   rss = true
   comments = true
